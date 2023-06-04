@@ -8,7 +8,7 @@ import imghdr
 from email.message import EmailMessage
 
 # Carica le immagini dei volti da riconoscere
-immagine_persona1 = face_recognition.load_image_file("saramin.jpg")
+immagine_persona1 = face_recognition.load_image_file("foto/saramin.jpg")
 nome_persona1 = "Saramin"
 encoding_persona1 = face_recognition.face_encodings(immagine_persona1)[0]
 
